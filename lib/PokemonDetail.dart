@@ -123,9 +123,12 @@ class PokemonDetail extends StatelessWidget {
                           backgroundColor: Colors.transparent,
                           child: Image.network(imageUrl,
                               errorBuilder: (context, error, stackTrace) {
-                            return Image.network(imageUrl,
+                            return Image.network(defaultUrl,
                                 errorBuilder: (context, error, stackTrace) {
-                              return Text('Could not load image');
+                              return Image.network(spritesParsed[0],
+                                  errorBuilder: (context, error, stackTrace) {
+                                return const Text('Could not load image');
+                              });
                             });
                           })),
                       title: const Text('Mane'),
