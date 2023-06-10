@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
-
 import 'PokemonDetail.dart';
 
 class PokemonList extends StatelessWidget {
@@ -47,8 +46,18 @@ class PokemonList extends StatelessWidget {
             itemCount: pokemons.length,
             itemBuilder: (context, index) {
               final pokemon = pokemons[index];
+              final imageUrl =
+                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${pokemon['id']}.png';
+              final defaultUrl =
+                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon['id']}.png';
               return ListTile(
-                //leading: Image.network(pokemon['image']),
+                leading: Image.network(imageUrl,
+                    errorBuilder: (context, error, stackTrace) {
+                  return Image.network(defaultUrl,
+                      errorBuilder: (context, error, stackTrace) {
+                    return const Text('Could not load image');
+                  });
+                }),
                 title: Text(pokemon['name']),
                 onTap: () => Navigator.push(
                   context,

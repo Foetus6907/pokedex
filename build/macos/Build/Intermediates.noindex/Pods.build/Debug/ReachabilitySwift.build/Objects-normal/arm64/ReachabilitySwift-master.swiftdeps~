@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "1f40e1432b14b269b7ed6822117b0f55865903fb9180011cd7d6eb8af1294dca"
+build_start_time: [1686337787, 836985000]
+build_end_time: [1686337787, 865331000]
+inputs:
+  "/Users/mohamedghoubali/Flutter/pokedex_app/macos/Pods/ReachabilitySwift/Sources/Reachability.swift": !private [1686337779, 217339711]

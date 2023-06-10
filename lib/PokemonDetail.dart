@@ -91,23 +91,43 @@ class PokemonDetail extends StatelessWidget {
                             "/sprites/pokemon/other/home/"))
                     .toList();
 
-                print(urls);
                 return urls;
               }
 
               List<String> spritesParsed = parseSprites(sprites);
+
+              final imageUrl =
+                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/$pokemonId.png';
+              final defaultUrl =
+                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/$pokemonId.png';
 
               return SingleChildScrollView(
                 child: Column(
                   children: <Widget>[
                     SizedBox(
                       height: 200,
-                      child: Image.network(spritesParsed[0]),
+                      child: Image.network(imageUrl,
+                          errorBuilder: (context, error, stackTrace) {
+                        return Image.network(defaultUrl,
+                            errorBuilder: (context, error, stackTrace) {
+                          return Image.network(spritesParsed[0],
+                              errorBuilder: (context, error, stackTrace) {
+                            return const Text('Could not load image');
+                          });
+                        });
+                      }),
                     ),
                     /*Make this prettier display date in an elegant table */
                     ListTile(
-                      leading:
-                          CircleAvatar(child: Image.network(spritesParsed[0])),
+                      leading: CircleAvatar(
+                          backgroundColor: Colors.transparent,
+                          child: Image.network(imageUrl,
+                              errorBuilder: (context, error, stackTrace) {
+                            return Image.network(imageUrl,
+                                errorBuilder: (context, error, stackTrace) {
+                              return Text('Could not load image');
+                            });
+                          })),
                       title: const Text('Mane'),
                       subtitle: Text(pokemon['name']),
                       trailing: const Icon(Icons.favorite_rounded),
