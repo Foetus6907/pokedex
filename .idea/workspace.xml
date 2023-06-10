@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7493265-6afa-4693-92b0-56176ea17361" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/PokemonDetail.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PokemonDetail.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/PokemonList.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/PokemonList.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <updated>1686336706895</updated>
       <workItem from="1686336707489" duration="934000" />
       <workItem from="1686337681195" duration="15439000" />
-      <workItem from="1686434033807" duration="1246000" />
+      <workItem from="1686434033807" duration="2722000" />
     </task>
     <servers />
   </component>
@@ -104,5 +105,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
