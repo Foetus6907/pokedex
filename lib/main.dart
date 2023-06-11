@@ -40,7 +40,6 @@ class MyApp extends StatelessWidget {
     final ValueNotifier<GraphQLClient> client = ValueNotifier<GraphQLClient>(
       GraphQLClient(link: link, cache: GraphQLCache()),
     );
-
     return MultiProvider(
       providers: [
         Provider<DatabaseService>(
