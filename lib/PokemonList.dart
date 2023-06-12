@@ -2,7 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'PokemonDetail.dart';
 
-class PokemonList extends StatelessWidget {
+class PokemonList extends StatefulWidget {
+  const PokemonList({Key? key}) : super(key: key);
+
+  @override
+  _PokemonListState createState() => _PokemonListState();
+}
+
+class _PokemonListState extends State<PokemonList> {
   final String query = """
   query {
     pokemon_v2_pokemon {
@@ -17,13 +24,25 @@ class PokemonList extends StatelessWidget {
   }
   """;
 
-  const PokemonList({super.key});
+  String _searchQuery = '';
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Pokedex'),
+        title: TextField(
+          decoration: const InputDecoration(
+            hintText: 'Search Pokemon',
+            hintStyle: TextStyle(color: Colors.white54),
+            border: InputBorder.none,
+          ),
+          style: const TextStyle(color: Colors.white),
+          onChanged: (value) {
+            setState(() {
+              _searchQuery = value.toLowerCase();
+            });
+          },
+        ),
       ),
       body: Query(
         options: QueryOptions(
@@ -42,22 +61,20 @@ class PokemonList extends StatelessWidget {
 
           List pokemons = result.data?['pokemon_v2_pokemon'];
 
+          // Filter the pokemons list based on the search query
+          List filteredPokemons = pokemons
+              .where((pokemon) =>
+                  pokemon['name'].toLowerCase().contains(_searchQuery))
+              .toList();
+
           return ListView.builder(
-            itemCount: pokemons.length,
+            itemCount: filteredPokemons.length,
             itemBuilder: (context, index) {
-              final pokemon = pokemons[index];
+              final pokemon = filteredPokemons[index];
               final imageUrl =
                   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${pokemon['id']}.png';
-              final defaultUrl =
-                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon['id']}.png';
               return ListTile(
-                leading: Image.network(imageUrl,
-                    errorBuilder: (context, error, stackTrace) {
-                  return Image.network(defaultUrl,
-                      errorBuilder: (context, error, stackTrace) {
-                    return const Text('Could not load image');
-                  });
-                }),
+                leading: Image.network(imageUrl),
                 title: Text(pokemon['name']),
                 onTap: () => Navigator.push(
                   context,
