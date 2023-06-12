@@ -3,7 +3,44 @@
   <component name="ChatGPTCopilotChannelManager">
     <chatChannels>
       <chatChannel>
-        <option name="messages" />
+        <option name="model" value="gpt-3.5-turbo" />
+        <option name="name" value="I apologize, as an AI language model, I don't have context about our previous conversation. Can you please clarify what we were talking about so I can assist you better?" />
+        <option name="messages">
+          <Message>
+            <option name="content" value="J'ai cette erreur :" />
+            <option name="role" value="user" />
+          </Message>
+          <Message>
+            <option name="content" value="Désolé, mais pouvez-vous s'il vous plaît préciser quelle erreur vous rencontrez pour que je puisse vous aider de manière plus efficace ?" />
+            <option name="role" value="assistant" />
+          </Message>
+          <Message>
+            <option name="content" value="══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════&#10;The following assertion was thrown resolving an image codec:&#10;Unable to load asset: &quot;assets/poketype/grass.png&quot;.&#10;Exception: Asset not found&#10;&#10;When the exception was thrown, this was the stack:&#10;#0      PlatformAssetBundle.loadBuffer (package:flutter/src/services/asset_bundle.dart:369:7)&#10;&lt;asynchronous suspension&gt;&#10;#1      AssetBundleImageProvider._loadAsync (package:flutter/src/painting/image_provider.dart:811:18)&#10;&lt;asynchronous suspension&gt;&#10;&#10;Image provider: AssetImage(bundle: null, name: &quot;assets/poketype/grass.png&quot;)&#10;Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#6400c(), name:&#10;  &quot;assets/poketype/grass.png&quot;, scale: 1.0)" />
+            <option name="role" value="user" />
+          </Message>
+          <Message>
+            <option name="content" value="Cette erreur indique que Flutter ne parvient pas à charger l'image &quot;grass.png&quot; dans le répertoire &quot;assets/poketype&quot;. Il se peut qu'il y ait une erreur de chemin d'accès vers l'image ou que l'image elle-même soit manquante dans le dossier &quot;assets&quot;. Vérifiez que l'image est bien présente dans le dossier &quot;assets&quot; et assurez-vous que le chemin d'accès vers l'image est correct." />
+            <option name="role" value="assistant" />
+          </Message>
+          <Message>
+            <option name="content" value="Jai cette erreur :" />
+            <option name="role" value="user" />
+          </Message>
+          <Message>
+            <option name="content" value="D'accord, pouvez-vous me dire quelle est l'erreur que vous rencontrez ?" />
+            <option name="role" value="assistant" />
+          </Message>
+          <Message>
+            <option name="content" value="══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════&#10;The following assertion was thrown resolving an image codec:&#10;Unable to load asset: &quot;assets/poketype/grass.png&quot;.&#10;Exception: Asset not found&#10;&#10;When the exception was thrown, this was the stack:&#10;#0      PlatformAssetBundle.loadBuffer (package:flutter/src/services/asset_bundle.dart:369:7)&#10;&lt;asynchronous suspension&gt;&#10;#1      AssetBundleImageProvider._loadAsync (package:flutter/src/painting/image_provider.dart:811:18)&#10;&lt;asynchronous suspension&gt;&#10;&#10;Image provider: AssetImage(bundle: null, name: &quot;assets/poketype/grass.png&quot;)&#10;Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#6400c(), name:&#10;  &quot;assets/poketype/grass.png&quot;, scale: 1.0)" />
+            <option name="id" value="5d10d233-21a6-40df-b1f1-48f2019f791c" />
+            <option name="role" value="user" />
+          </Message>
+          <Message>
+            <option name="content" value="Cette erreur indique que Flutter ne parvient pas à charger l'image &quot;grass.png&quot; dans le répertoire &quot;assets/poketype&quot;. Il se peut qu'il y ait une erreur de chemin d'accès vers l'image ou que l'image elle-même soit manquante dans le dossier &quot;assets&quot;. Vérifiez que l'image est bien présente dans le dossier &quot;assets&quot; et assurez-vous que le chemin d'accès vers l'image est correct." />
+            <option name="id" value="1cd403d3-637d-4aa0-917f-a6d46d18baf1" />
+            <option name="role" value="assistant" />
+          </Message>
+        </option>
       </chatChannel>
     </chatChannels>
   </component>

@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		acxXgQ27R/xoRATvlPbnrrgmi+8=
 		</data>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<data>
-		BOBZtVCKogwuSluqb0miwcmwMmY=
+		cY7CHKiwRKrVNDY5Kwc8AAXDjNE=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -23,6 +23,82 @@
 		<key>flutter_assets/NOTICES.Z</key>
 		<data>
 		BMSXWfF5hbEkvHdrwxKwzSuBNeA=
+		</data>
+		<key>flutter_assets/assets/poketype/bug.png</key>
+		<data>
+		4YuVE98KCtEppcvCFytOgzlJgVc=
+		</data>
+		<key>flutter_assets/assets/poketype/dark.png</key>
+		<data>
+		Y3qvtjjB2yaHLULVBNB/nqeLVSA=
+		</data>
+		<key>flutter_assets/assets/poketype/dragon.png</key>
+		<data>
+		HbopyiJa52kj4Epn9Ny/Ucjh428=
+		</data>
+		<key>flutter_assets/assets/poketype/electric.png</key>
+		<data>
+		VWbQxF3kld0LsIQVWOZcxNuhydQ=
+		</data>
+		<key>flutter_assets/assets/poketype/fairy.png</key>
+		<data>
+		z6xxGaDeiYBhXdvuq8Ih538J2r4=
+		</data>
+		<key>flutter_assets/assets/poketype/fighting.png</key>
+		<data>
+		/4zzGapGEpPyPLpRYTtsxQoNCvY=
+		</data>
+		<key>flutter_assets/assets/poketype/fire.png</key>
+		<data>
+		jd/q8n5qI6q+uj7WgrKO8vorQU8=
+		</data>
+		<key>flutter_assets/assets/poketype/fliying.png</key>
+		<data>
+		axLVJ/4KYlWO+cMYIDdgZILIcOc=
+		</data>
+		<key>flutter_assets/assets/poketype/flying.png</key>
+		<data>
+		axLVJ/4KYlWO+cMYIDdgZILIcOc=
+		</data>
+		<key>flutter_assets/assets/poketype/gosth.png</key>
+		<data>
+		aHaZ1km4Agr4q+JSNMQUE4vCD5k=
+		</data>
+		<key>flutter_assets/assets/poketype/grass.png</key>
+		<data>
+		ii7obNuJ8hnVMI12FfiF5Xjt3Dc=
+		</data>
+		<key>flutter_assets/assets/poketype/ground.png</key>
+		<data>
+		RYmMUrJZVBUvZx2I7XlxR7Hdtag=
+		</data>
+		<key>flutter_assets/assets/poketype/ice.png</key>
+		<data>
+		6eEUjnhWfLW+aUN2MakBrSwqzIY=
+		</data>
+		<key>flutter_assets/assets/poketype/normal.png</key>
+		<data>
+		wyk2+uHBy9enHSTLiAWulec9yQU=
+		</data>
+		<key>flutter_assets/assets/poketype/poison.png</key>
+		<data>
+		YecDxq9mOLTM6tGvJL9askly9Xc=
+		</data>
+		<key>flutter_assets/assets/poketype/psychic.png</key>
+		<data>
+		WmwYR0fJO6ndwrx75QYVN7Ld5xY=
+		</data>
+		<key>flutter_assets/assets/poketype/rock.png</key>
+		<data>
+		TDWIUpjKUAYuRUo7p47OzxIj2Lo=
+		</data>
+		<key>flutter_assets/assets/poketype/steel.png</key>
+		<data>
+		xXcbmztbNr8t35g+fuxjpASTzY8=
+		</data>
+		<key>flutter_assets/assets/poketype/water.png</key>
+		<data>
+		WxrKLGEH36DikNDnwgYtgRG2sYo=
 		</data>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -34,7 +110,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		SxnR6O3gI28RTxZxRLJjhNwCFqU=
+		F1UprsumQyk2FVywxcyVzAjkfSg=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -55,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			HxtRn46089DukIUa0NM2JPN/EqBj2Nhbfz8EEUuiGT0=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.smcbin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nFwFXoxik7nUz3ocXKA7ilNzgyDD8BvjtuMmn6MuJrY=
+			+ymh0/p3ZVMAx18oQdGerFAJ8fFCREcYZj2Vu0aqYvM=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -77,6 +153,139 @@
 			<key>hash2</key>
 			<data>
 			ZlMXpiJxLCbuA46b4oxEKoL4/ZUSJho0wElV+uYiv60=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/bug.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9XTB8hGF6ASP3IsZsq4g4d9o3tuM3NNyc6mLnEXBtug=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/dark.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wbU1PzObv43hjAWcY8FCoufiI2krBwhQnEiOqepP70U=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/dragon.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9kU9hRZXkpuvvglMszS5aCaTT71lVWd0Vj6h8RqRI2E=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/electric.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			28x7lfhL7zbfGJ5lAsGMSgXoIV63HdeSTad6NiGaRMU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/fairy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vxN3KpBHg2j6y5GtqJBxnMj3O0BYM2TDB3c6VDxmwsY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/fighting.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RVcq94UrPuWiSM2rzMjEVs/Hm+weDZEqIzLerjq2yXY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/fire.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qDvtWf8EFkjAoDT07+TNfLJa5JgaOxl2oIbqWDqZaXg=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/fliying.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q3I0xWidRp3af52pLFFn2ONjGqzQD6CrIMYxp67OiCI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/flying.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q3I0xWidRp3af52pLFFn2ONjGqzQD6CrIMYxp67OiCI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/gosth.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PiS3VfwR3XAekJiC4ONvyOsuQ1BhiopFrxdt13hE/5I=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/grass.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UlaULqb1M5/uDJ2L+cHFD+h/Z5LuTN5273Uwup7N+fc=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/ground.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zE1fedW8GNJHZvvUEu88T2jfyUwnU3rbecwDkHGXEeY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/ice.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YsnG4DIuUxvwWjguxaZTMz1NtR0BKYWs7yj6wbIIQ1k=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/normal.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			P40ShD+jL3ciq66SmJ5FPjFKDx25nXZNKhyNZl1ZLPU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/poison.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MeUEG/Va7JObJJwxRpzyQj3dDjCwglVUnTCgG990S78=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/psychic.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A8OS2i4rNvxM9Mg04m0CMQ8bI+0pOdglVLj+pDQt5m4=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/rock.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xkUdeINS2CMtxwtjgCYB7wz8w5vjCnhOoFiPrieW79w=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/steel.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mFNnbnsXMUWRkO0zwe0JwGoiq8gCiCvSNf8QNxIdOf0=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/poketype/water.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0F/c2fu8EyxhCdR45eD/SGgNAp/nSWC8dM4zR+MVwug=
 			</data>
 		</dict>
 		<key>flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -97,7 +306,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			quBEJdKsJQGVH3yPrhqDz/GsN106E2g4LByEpA9MgKM=
+			EubdbFhpZUEKSRLYV33SfzFP1O4AuFyUY6lpgnXBst4=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

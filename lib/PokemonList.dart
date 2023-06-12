@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'PokemonDetail.dart';
+//import image from 'assets/poketype/bug.png';
+import 'package:flutter/services.dart' show rootBundle;
 
 class PokemonList extends StatefulWidget {
   const PokemonList({Key? key}) : super(key: key);
@@ -76,6 +78,17 @@ class _PokemonListState extends State<PokemonList> {
               return ListTile(
                 leading: Image.network(imageUrl),
                 title: Text(pokemon['name']),
+                subtitle: Wrap(
+                  spacing: 8.0,
+                  children: [
+                    for (final type in pokemon['pokemon_v2_pokemontypes'])
+                      Image.asset(
+                        'assets/poketype/${type['pokemon_v2_type']['name']}.png',
+                        width: 25,
+                        height: 25,
+                      ),
+                  ],
+                ),
                 onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
