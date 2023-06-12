@@ -73,8 +73,16 @@ class _PokemonListState extends State<PokemonList> {
               final pokemon = filteredPokemons[index];
               final imageUrl =
                   'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${pokemon['id']}.png';
+              final defaultUrl =
+                  'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon['id']}.png';
               return ListTile(
-                leading: Image.network(imageUrl),
+                leading: Image.network(imageUrl,
+                    errorBuilder: (context, error, stackTrace) {
+                  return Image.network(defaultUrl,
+                      errorBuilder: (context, error, stackTrace) {
+                    return const Text('Could not load image');
+                  });
+                }),
                 title: Text(pokemon['name']),
                 subtitle: Wrap(
                   spacing: 8.0,
