@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'PokemonDetail.dart';
-//import image from 'assets/poketype/bug.png';
-import 'package:flutter/services.dart' show rootBundle;
 
 class PokemonList extends StatefulWidget {
   const PokemonList({Key? key}) : super(key: key);
