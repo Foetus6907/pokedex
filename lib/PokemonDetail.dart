@@ -248,8 +248,11 @@ class PokemonDetail extends StatelessWidget {
                               });
                             });
                           })),
-                      title: const Text('Mane'),
-                      subtitle: Text(pokemon['name']),
+                      title: const Text('Name'),
+                      subtitle: Text(pokemon['pokemon_v2_pokemonspecy']
+                                  ['pokemon_v2_pokemons'][0]
+                              ['pokemon_v2_pokemonspecy']
+                          ['pokemon_v2_pokemonspeciesnames'][0]['name']),
                       trailing: const Icon(Icons.favorite_rounded),
                     ),
                     const Divider(height: 0),
